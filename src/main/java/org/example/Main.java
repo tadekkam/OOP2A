@@ -8,5 +8,6 @@ public class Main {
 
         System.out.println(textToUpper.formatText("Sample TEXT to be changed"));
         System.out.println(textToLower.formatText("Sample TEXT to be changed"));
+
     }
 }
