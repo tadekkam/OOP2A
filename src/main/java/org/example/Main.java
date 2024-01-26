@@ -2,12 +2,15 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-
-        TextToUpper textToUpper = new TextToUpper();
-        TextToLower textToLower = new TextToLower();
-
-        System.out.println(textToUpper.formatText("Sample TEXT to be changed"));
-        System.out.println(textToLower.formatText("Sample TEXT to be changed"));
-
+      
+        Dog dog = new Dog("Puszek", "dachshund");
+        System.out.println("Name: " + dog.getName());
+        System.out.println("Breed: " + dog.getBreed());
+      
+        Dog dogNew = new Dog();
+        dogNew.setName("Okruszek");
+        dogNew.setBreed("wolfhound");
+        System.out.println("Name: " + dogNew.getName());
+        System.out.println("Breed: " + dogNew.getBreed());
     }
 }
