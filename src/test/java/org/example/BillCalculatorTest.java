@@ -16,8 +16,8 @@ class BillCalculatorTest {
     void calculateValueInvoiceAndPaymentForServiceAndDiscount() {
         double valueInvoice = 100;
         float paymentForService = 10;
-        double discount = 0.5;
-        Assertions.assertEquals(109.5, BillCalculator.calculate(valueInvoice, paymentForService, discount));
+        double discount = 15;
+        Assertions.assertEquals(95, BillCalculator.calculate(valueInvoice, paymentForService, discount));
     }
     @Test
     void calculateValueInvoiceAndPaymentForServiceAndPaymentForPacking() {

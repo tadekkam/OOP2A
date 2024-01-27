@@ -7,7 +7,7 @@ public class BillCalculator {
     }
 
     public static double calculate(double valueInvoice, float paymentForService, double discount) {
-        return valueInvoice - discount + paymentForService;
+        return valueInvoice * (1 - discount / 100) + paymentForService;
     }
 
     public static double calculate(double valueInvoice, float paymentForService, short paymentForPacking) {
