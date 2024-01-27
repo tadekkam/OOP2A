@@ -16,5 +16,6 @@ public class Main {
         System.out.println("Equals: " + person3.equals(person4));
         System.out.println("HashCode person3: " + person3.hashCode());
         System.out.println("HashCode person4: " + person4.hashCode());
+
     }
 }
