@@ -2,6 +2,9 @@ package org.example;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        Triangle triangle = new Triangle(5,6);
+        System.out.println(triangle.toString());
+
     }
 }
