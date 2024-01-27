@@ -5,6 +5,5 @@ public class Main {
 
         Triangle triangle = new Triangle(5,6);
         System.out.println(triangle.toString());
-
     }
 }
